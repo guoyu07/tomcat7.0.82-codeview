@@ -17,6 +17,7 @@
 logs/
 nbproject/
 output/
+work/
 # Next line commented out, because test/webapp-3.0-virtual-library and
 # test/webapp-3.0-virtual-webapp use it:
 # target
@@ -58,3 +59,4 @@ hs_err_pid*
 .ant-targets-build.xml
 
 .classpath
+.idea/
