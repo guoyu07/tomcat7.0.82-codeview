@@ -58,3 +58,16 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 ## 四、成果展示实例
 
 ![](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/images/buildsuccess.png)
+
+
+
+## 五、 笔记目录
+
+- [Tomcat源码编译以及工程目录搭建](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BC%96%E8%AF%91%E4%B8%8E%E6%90%AD%E5%BB%BA.md)
+
+
+
+
+
+
+
