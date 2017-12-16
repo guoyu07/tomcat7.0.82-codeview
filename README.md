@@ -1,2 +1,60 @@
 # tomcat7.0.82-codeview
-对Tomcat7.0.82版本的源码查看笔记，能坚持多少是多少，毕竟水平也是臭的，积累一点是一点
+对Tomcat7.0.82版本的源码查看笔记,毕竟水平也是臭的，积累一点是一点，能坚持多少是多少，也不会刻意的去读源码，工作中遇到问题了有时间了就去翻一下。
+
+
+
+## 基本环境信息
+
+本工程是在`Ubuntu Linux`桌面环境下完成，但是本人也实践过在`Windows`下同样实用，使用者可以直接`git clone`本仓库，按照文档的说明操作即可完成本机的搭建工作，所需环境信息如下：
+
+- 1、 Ant版本 `Apache Ant(TM) version 1.9.4`
+- 2、`JDK`版本 需要两个版本（`JDK1.6`和`JDK1.7`）
+- 3、 翻墙工具(非必须因为我试了一下不翻墙是可以build成功的，但是速度慢的出奇)
+- 4、 `Intellij IDEA Community  Edition`（最新的版本即可，不要什么企业版，当然`Tomcat官方`首页中推荐的`IDE`为`eclipse`，但是因为我觉得`eclipse`太卡了，所以就直接用的`IDEA`，工具不限，只要按照要求配置即可搭建好环境）
+
+
+## 工程目录结构
+
+如下所示，若无特殊说明都是`Tomcat`官方原本自带的文件，本人未经过任何修改或者删除文件（毕竟也没有那个水平）
+
+
+```bash
+parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
+.
+├── bin
+├── BUILDING.txt
+├── build.properties
+├── build.properties.default
+├── build.xml
+├── conf
+├── CONTRIBUTING.md
+├── docs  # 源码阅读笔记文档，md格式
+├── java
+├── KEYS
+├── LICENSE
+├── logs
+├── modules
+├── NOTICE
+├── output
+├── README.md
+├── RELEASE-NOTES
+├── res
+├── RUNNING.txt
+├── STATUS.txt
+├── test
+├── tomcat-7.0.x.iml    # IDEA的工程文件，在.gitignore文件已经忽略
+├── TomcatREADME.md     # 原本Tomcat的README文件
+├── webapps
+└── work
+
+```
+
+## 其他说明
+
+未对Tomcat源码文件做过任何改动与修改，也没有加入什么特殊的辅助编译脚本。
+
+
+
+## 成果展示实例
+
+![](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/images/buildsuccess.png)
