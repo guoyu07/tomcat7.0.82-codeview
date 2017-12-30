@@ -68,6 +68,7 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 
 - [Tomcat的启动过程](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.md)
 
+- [线上诊断Tomcat的问题-工具与方法.md](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/线上诊断Tomcat的问题-工具与方法.md)
 
 
 
