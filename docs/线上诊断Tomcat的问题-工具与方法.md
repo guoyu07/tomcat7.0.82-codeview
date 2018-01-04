@@ -37,7 +37,7 @@ export变量即可，使用完成后再删掉JDK即可，如果是Windows，自�
 
 ## 三、 调试线程阻塞或者CPU过高的问题
 
-
+对于`CPU`问题通常情况下，我们应该很容易可以复现的，所以我们可以直接在`JVM`的启动参数中加入`-Dcom.sun.management.jmxremote.port=8888 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false  -Djava.rmi.server.hostname=192.168.1.51`，加入该段参数后`JVM`会在本机的`8888`端口上启动一个监听，我们可以使用`JMX`工具连接进来查看与诊断问题。
 
 
 ## 四、 调试内存问题
