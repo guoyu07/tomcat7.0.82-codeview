@@ -60,3 +60,4 @@ hs_err_pid*
 
 .classpath
 .idea/
+java/org/apache/catalina/startup/catalina.properties
