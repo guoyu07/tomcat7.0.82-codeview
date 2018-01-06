@@ -29,8 +29,7 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 ├── build.xml
 ├── conf
 ├── CONTRIBUTING.md
-├── docs  # 源码阅读笔记文档，md格式
-├── java
+├── java  # 源码目录
 ├── KEYS
 ├── LICENSE
 ├── logs
@@ -58,18 +57,13 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 
 ## 四、成果展示实例
 
-![](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/images/buildsuccess.png)
+![](images/buildsuccess.png)
 
 
 
 ## 五、 笔记目录
 
-- [Tomcat源码编译以及工程目录搭建](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/%E5%B7%A5%E7%A8%8B%E7%9B%AE%E5%BD%95%E7%BC%96%E8%AF%91%E4%B8%8E%E6%90%AD%E5%BB%BA.md)
-
-- [Tomcat的启动过程](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/Tomcat%E7%9A%84%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.md)
-
-- [线上诊断Tomcat的问题-工具与方法的整理](https://github.com/liuwenru/tomcat7.0.82-codeview/blob/master/docs/线上诊断Tomcat的问题-工具与方法.md)
-
+请参见本[项目的`Wiki`页面](https://github.com/liuwenru/tomcat7.0.82-codeview/wiki)
 
 
 
