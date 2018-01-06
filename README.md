@@ -57,7 +57,7 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 
 ## 四、成果展示实例
 
-![](images/buildsuccess.png)
+![](https://github.com/liuwenru/tomcat7.0.82-codeview/wiki/images/buildsuccess.png)
 
 
 
