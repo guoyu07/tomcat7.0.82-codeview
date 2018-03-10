@@ -63,7 +63,7 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 
 ## 五、 笔记目录
 
-请参见本[项目的`Wiki`页面](https://github.com/liuwenru/tomcat7.0.82-codeview/wiki)
+请参见本[项目的`Wiki`页面](https://github.com/liuwenru/tomcat7.0.82-codeview/wiki)，如果你有其他的意见欢迎在ISSUE中提出，我们可以一起讨论。
 
 
 
