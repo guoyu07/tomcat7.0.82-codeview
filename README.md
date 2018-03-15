@@ -66,10 +66,10 @@ parallels@parallels-vm:~/workspace/apache-tomcat-7.0.82-src$ tree -L 1
 请参见本[项目的`Wiki`页面](https://github.com/liuwenru/tomcat7.0.82-codeview/wiki)，如果你有其他的意见欢迎在ISSUE中提出，我们可以一起讨论。
 
 
-- [工程目录编译与搭建](工程目录编译与搭建.md)
-- [Tomcat的启动脚本解析](Tomcat的启动脚本解析.md)
-- [JDK-Tools的使用](JDK-Tools的使用.md)
-- [线上诊断Tomcat的问题-工具与方法.md](线上诊断Tomcat的问题-工具与方法.md)
+- [工程目录编译与搭建](docs/工程目录编译与搭建.md)
+- [Tomcat的启动脚本解析](docs/Tomcat的启动脚本解析.md)
+- [JDK-Tools的使用](docs/JDK-Tools的使用.md)
+- [线上诊断Tomcat的问题-工具与方法.md](docs/线上诊断Tomcat的问题-工具与方法.md)
 
 
 
