@@ -81,6 +81,8 @@ public class AppsData {
 > Users can add a physical font as a fallback font to logical fonts used in Java 2D rendering by installing it in the lib/fonts/fallback directory within the JRE.
 
 瞬间发现之前的两三个小时都在干嘛，原来`2D`的图形库自定义字体文件是放在`${JRE_HOME}/lib/fonts/fallback`，看到此处果断新建`/lib/fonts/fallback`目录，放入字体撸一把。
+
+
 ![](images/添加JRE环境字体.png)
 
 如上图所示，已经成功添加字体，随后在`Docker`环境中测试也是可以的。
