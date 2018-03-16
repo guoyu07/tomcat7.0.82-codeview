@@ -86,6 +86,27 @@ public class AppsData {
 如上图所示，已经成功添加字体，随后在`Docker`环境中测试也是可以的。
 
 
+
+但是其实如果再仔细阅读文档还会发现这么一段解释
+
+```bash
+The fonts are installed in the Java SE Runtime Environment's lib/fonts directory as the following files (not all of them may be present):
+
+LucidaSansDemiBold.ttf
+LucidaSansRegular.ttf
+LucidaTypewriterBold.ttf
+LucidaTypewriterRegular.ttf
+LucidaBrightDemiBold.ttf
+LucidaBrightDemiItalic.ttf
+LucidaBrightItalic.ttf
+LucidaBrightRegular.ttf
+
+```
+
+虽然在`JRE`中放了这些字体文件，但是也不知道那些被加载了那些没有被加载。如果有看过这部分源码的同学欢迎提给`ISSUES`，我们一起学习一下。
+
+
+
 ### 3.2、 在程序中指定字体
 
 接着我们刚才的思路，如果能够在程序中自定义一个目录，把我们的程序中的要用到的字体放在里面这样就和环境没有关系了，提高了程序的可移植性，这才是比较优雅的实现方式，答案就在`Graphics`库中，在官方文档中很快就可以找到代码[实例与说明](https://docs.oracle.com/javase/tutorial/2d/images/drawimage.html)以及关于自定义`2D`字体文件的[方法说明](https://docs.oracle.com/javase/tutorial/2d/text/fonts.html)，摘要如下
@@ -168,3 +189,17 @@ Font java.awt.Font.createFont(int fontFormat, InputStream in); //这个方法是
 Font java.awt.Font.createFont(int fontFormat, File fontFile);  //使用该方法能够成功
 
 ```
+
+
+
+## 四、 参考文档
+
+- [官方文档1](https://docs.oracle.com/javase/8/docs/technotes/guides/intl/font.html)
+- [官方文档2](https://docs.oracle.com/javase/8/docs/technotes/guides/intl/fontconfig.html#unix)
+- [官方文档3](https://docs.oracle.com/javase/tutorial/2d/text/fonts.html)
+- [官方文档4](http://www.oracle.com/technetwork/articles/javase/headless-136834.html)
+- [官方文档5](http://www.oracle.com/technetwork/java/javase/java8locales-2095355.html#jfc-table)
+- [官方文档6](https://docs.oracle.com/javase/tutorial/2d/images/drawimage.html)
+
+
+
